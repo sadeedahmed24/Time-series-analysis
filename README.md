@@ -32,7 +32,7 @@ Using publicly available data from the U.S. Bureau of Labor Statistics, this pro
 
 ## 📁 File Structure
 
-├── analysis.py # Contains analysis for Gas-Energy correlation and Food CPI seasonality
-├── recession_impact.py # Contains convolution-based modeling of Shelter CPI during recessions
-├── Ahmed_Sadeed_PHY408Report.pdf # Full project report
-├── data/ # Folder to store processed CPI and unemployment data (not included)
+- analysis.py # Contains analysis for Gas-Energy correlation and Food CPI seasonality
+- recession_impact.py # Contains convolution-based modeling of Shelter CPI during recessions
+- Ahmed_Sadeed_PHY408Report.pdf # Full project report
+- data/ # Folder to store processed CPI and unemployment data (not included)
