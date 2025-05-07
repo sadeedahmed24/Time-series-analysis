@@ -1,1 +1,38 @@
-# Time-series-analysis
+# US CPI Time Series Analysis 🧮📈
+
+This repository contains the code and final report for my PHY408 project at the University of Toronto, titled **"Time Series Analysis of the U.S. Consumer Price Index (CPI)"**. The goal of this project was to explore relationships and patterns in various CPI components using signal processing techniques, statistical modeling, and Python-based data analysis.
+
+## 📄 Report
+
+The full analysis and results are documented in [`Ahmed_Sadeed_PHY408Report.pdf`](Ahmed_Sadeed_PHY408Report.pdf).
+
+## 📊 Project Summary
+
+Using publicly available data from the U.S. Bureau of Labor Statistics, this project investigates three major questions:
+
+1. **Correlation between Natural Gas and Energy CPI**  
+   - Uses smoothing (Savitzky-Golay), stationarity testing, and FFT-based cross-correlation.
+   - Finding: Gas CPI leads Energy CPI with a lag of ~2 months.
+
+2. **Impulse Response of Shelter CPI to Recession**  
+   - Models recessions using unemployment rates as proxy impulses.
+   - Convolution-based response shows housing price sensitivity to economic downturns.
+
+3. **Seasonality in Food CPI**  
+   - Detrends data and uses DFT to extract periodic patterns.
+   - Clear seasonal highs in summer and lows at year-end are identified.
+
+## 🧪 Technologies Used
+
+- Python
+- NumPy, SciPy, Matplotlib
+- Signal Processing (Convolution, FFT)
+- Web scraping (for BLS data extraction)
+- Time series and economic data modeling
+
+## 📁 File Structure
+
+├── analysis.py # Contains analysis for Gas-Energy correlation and Food CPI seasonality
+├── recession_impact.py # Contains convolution-based modeling of Shelter CPI during recessions
+├── Ahmed_Sadeed_PHY408Report.pdf # Full project report
+├── data/ # Folder to store processed CPI and unemployment data (not included)
