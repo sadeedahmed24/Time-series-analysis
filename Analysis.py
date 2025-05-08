@@ -14,7 +14,7 @@ def p2f(x):
     return float(x.strip('%'))
 
 
-with open('CPI-data.csv', mode='r') as csv_file:
+with open('data/CPI-data.csv', mode='r') as csv_file:
     csv_reader = csv.reader(csv_file)
 
     # skipping over the headers

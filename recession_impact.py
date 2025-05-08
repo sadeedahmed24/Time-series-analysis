@@ -9,7 +9,7 @@ def p2f(x):
     return float(x.strip('%'))
 
 
-with open('Unemployment-Data.csv', mode='r') as csv_file:
+with open('data/Unemployment-Data.csv', mode='r') as csv_file:
     csv_reader = csv.reader(csv_file)
 
     # skipping over the headers
