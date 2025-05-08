@@ -35,3 +35,17 @@ Using publicly available data from the U.S. Bureau of Labor Statistics, this pro
 - recession_impact.py (Impulse response modeling of Shelter CPI during recessions)
 - Ahmed_Sadeed_PHY408Report.pdf (Final project report (PDF))
 - data/ (Directory for CPI and unemployment datasets (not included))
+
+## 📚 Data Sources
+
+- [CPI by Category (BLS)](https://www.bls.gov/charts/consumer-price-index/consumer-price-index-by-category-line-chart.htm)
+- [Unemployment Rate (BLS)](https://www.bls.gov/charts/employment-situation/civilian-unemployment-rate.htm)
+
+## 🚀 How to Run
+
+Make sure you have Python 3 installed along with the following packages:
+
+```bash
+pip install numpy scipy matplotlib
+```
+Then run the scripts individually depending on which part you'd like to explore. I ran the files in pyCharm as that's my editor of choice when editing/running python files.
